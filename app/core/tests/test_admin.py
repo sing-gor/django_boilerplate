@@ -28,7 +28,6 @@ class AdminSiteTests(TestCase):
         self.assertContains(response, self.user.name)
         self.assertContains(response, self.user.email)
 
-
     def test_user_change_page(self):
         """Test that the user page work"""
 
